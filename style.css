@@ -9,21 +9,21 @@ font-family: "Roboto", sans-serif;
     outline: none;
 }
 
-.logo {
-    width: 300px;
-    display: block;
-    margin: 25px auto;
+.back-ground{
+    margin: -50px;
+ width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    position: absolute;
 }
 
-body {
-    background-color: #8a51fc;
-}
 
 main {
-    width: 375px;
-    background: #f4f4f4;
+    width: 350px;
+    background: #C7BEA9;
     border-radius: 20px;
-    margin: 0 auto 40px;
+    margin: 50px auto 40px;
     padding: 44px 24px 23px;
 }
 
@@ -50,7 +50,7 @@ input {
 }
 
 button {
-    background: #772fd3;
+    background: #271D14;
     border-radius: 5px;
     border: none;
     height: 48px;
@@ -59,6 +59,7 @@ button {
     font-weight: 700;
     font-size: 18px;
     cursor: pointer;
+    box-shadow: 0 3px 8px #555555;
 }
 
 button:hover {
@@ -67,10 +68,11 @@ button:hover {
 
 button:active {
     opacity: 0.6;
+    background-color: rgb(25, 184, 4);
 }
 
 section {
-    border: 1px solid #772fd3;
+    border: 1px solid #271D14;
     border-radius: 20px;
     margin-top: 36px;
     padding: 12px;

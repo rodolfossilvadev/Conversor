@@ -9,6 +9,7 @@ font-family: "Roboto", sans-serif;
     outline: none;
 }
 
+
 .back-ground {
     margin: -50px;
     width: 100%;
@@ -21,6 +22,17 @@ font-family: "Roboto", sans-serif;
 body {
     margin-right: 0;
 }
+
+
+.back-ground{
+    margin: -50px;
+ width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    position: absolute;
+}
+
 
 main {
 

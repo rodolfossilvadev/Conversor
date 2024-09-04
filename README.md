@@ -14,9 +14,5 @@
   <li>Bitcoin</li>
 </ul>
 <img src="https://github.com/rodolfossilvadev/Conversor/blob/main/assets/desktop.jpg?raw=true" alt"desktop">
-<img src="https://github.com/rodolfossilvadev/Conversor/blob/main/assets/celular.jpg?raw=true" alt"cellphone">
-<style>
-  img{
-    width:300px;
-    }
-</style>
+<img src="https://github.com/rodolfossilvadev/Conversor/blob/main/assets/celular.jpg?raw=true" alt"cellphone" width:300px;>
+

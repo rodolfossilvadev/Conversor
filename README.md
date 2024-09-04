@@ -13,6 +13,7 @@
   <li>Libra</li>
   <li>Bitcoin</li>
 </ul>
-<img src="https://github.com/rodolfossilvadev/Conversor/blob/main/assets/desktop.jpg?raw=true" alt"desktop">
+<img src="https://github.com/rodolfossilvadev/Conversor/blob/main/assets/desktop.jpg?raw=true" alt"desktop" 
+  height="300" >
 <img src="https://github.com/rodolfossilvadev/Conversor/blob/main/assets/celular.jpg?raw=true" alt"cellphone">
 

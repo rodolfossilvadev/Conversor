@@ -13,4 +13,4 @@
   <li>Libra</li>
   <li>Bitcoin</li>
 </ul>
-<img src="
+<img src="https://github.com/rodolfossilvadev/Conversor/blob/main/assets/desktop.jpg?raw=true" alt"desktop">

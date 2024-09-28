@@ -1,16 +1,20 @@
 const convertButton = document.querySelector(".convert-button")
 const currencySelect = document.querySelector(".currency-select")
 
-function convertValues() {
+    const convertValues = async () => {
     const inputCurrencyValue = document.querySelector(".input-currency").value
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert")
     const currencyValueConverted = document.querySelector(".currency-value")
 
+    const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL").then(response => response.json())
+    
+    console.log(data)
+
     console.log(currencySelect.value)
-    const dolarToday = 5.2
-    const euroToday = 6.2
-    const libraToday = 7.4
-    const bitcoinToday = 329000.0
+    const dolarToday = data.USDBRL.high
+    const euroToday = data.EURBRL.high
+    const libraToday = data.GBPBRL.high
+    const bitcoinToday = data.BTCBRL.high
 
     if (currencySelect.value == "dolar") {
 
@@ -49,18 +53,18 @@ function convertValues() {
 
 
 
-    console.log(convertedValue)
+    console.log(convertValues)
 }
 function changeCurrency() {
     const currencyImage = document.querySelector(".currency-image")
     const currencyName = document.getElementById("currency-name")
     if (currencySelect.value == "dolar") {
         currencyName.innerHTML = "Dólar americano"
-        currencyImage.src="./assets/dolar.png"
+        currencyImage.src = "./assets/dolar.png"
     }
     if (currencySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
-        currencyImage.src="./assets/euro.png"
+        currencyImage.src = "./assets/euro.png"
     }
     if (currencySelect.value == "libra") {
         currencyName.innerHTML = "libra"
